@@ -39,6 +39,14 @@ a{
   margin-bottom: 30px;
 }
 
+.mr-1p5{
+ margin-right: 1.5%;
+}
+
+.ml-1p5{
+  margin-left: 1.5%;
+}
+
 .black-text{
   color: black;
 }
@@ -108,8 +116,15 @@ div.text-jumbotron h3{
 
 /* MAIN */
 
-main div.clearfix .col{
+.col{
   float: left;
+}
+
+main section.main-images{
+  margin-bottom: 20px;
+}
+
+main section.main-images :nth-child(1n){
   height: 200px;
 }
 
@@ -117,17 +132,27 @@ main div.clearfix aside{
   width: 18.5%;
 }
 
-main div.clearfix section.center-col{
+main div.clearfix section{
   width: 60%;
+}
+
+main div.clearfix section.center-col-img{
   background-image: url('../img/banner-2.jpg');
 }
 
-main div.clearfix aside.left-col{
+main div.clearfix aside.left-col-img{
   background-image: url('../img/img-1.jpg');
-  margin-right: 1.5%;
 }
 
-main div.clearfix aside.right-col{
+main div.clearfix aside.right-col-img{
   background-image: url('../img/img-3.jpg');
-  margin-left: 1.5%;
 }
+
+main div.clearfix section.main-text h4{
+  margin-bottom: 7px;
+}
+
+
+
+/* FOOTER */
+
