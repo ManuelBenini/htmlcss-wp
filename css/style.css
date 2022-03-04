@@ -8,6 +8,7 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  color: #929292;
 }
 
 .clearfix::after{
@@ -20,7 +21,7 @@ body{
   width: 80%;
   max-width: 1200px;
   min-width: 600px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 a{
@@ -34,10 +35,21 @@ a{
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.mb-20{
-  margin-bottom: 20px;
+.mb-30{
+  margin-bottom: 30px;
 }
 
+.black-text{
+  color: black;
+}
+
+.bg-position{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  overflow: hidden;
+}
 
 
 /* HEADER */
@@ -78,12 +90,7 @@ header div.menu nav ul li a:hover{
 
 .jumbotron{
   background-image: url('../img/banner.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   height: 500px;
-  border-radius: 10px;
-  overflow: hidden;
   color: white;
 }
 
@@ -95,4 +102,32 @@ div.text-jumbotron{
 
 div.text-jumbotron h3{
   font-size: 1.8rem;
+}
+
+
+
+/* MAIN */
+
+main div.clearfix .col{
+  float: left;
+  height: 200px;
+}
+
+main div.clearfix aside{
+  width: 18.5%;
+}
+
+main div.clearfix section.center-col{
+  width: 60%;
+  background-image: url('../img/banner-2.jpg');
+}
+
+main div.clearfix aside.left-col{
+  background-image: url('../img/img-1.jpg');
+  margin-right: 1.5%;
+}
+
+main div.clearfix aside.right-col{
+  background-image: url('../img/img-3.jpg');
+  margin-left: 1.5%;
 }
