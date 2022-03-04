@@ -120,7 +120,7 @@ div.text-jumbotron h3{
   float: left;
 }
 
-main section.main-images{
+main section.main-images, main section.main-text{
   margin-bottom: 20px;
 }
 
@@ -152,7 +152,15 @@ main div.clearfix section.main-text h4{
   margin-bottom: 7px;
 }
 
-
-
 /* FOOTER */
 
+footer.credits{
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+footer span.author::after{
+  content: '\2764';
+  color: red;
+}
