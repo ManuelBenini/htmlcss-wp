@@ -68,7 +68,6 @@ h4{
 .bg-position{
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -136,9 +135,6 @@ div.text-jumbotron h3{
 
 .image-box{
   margin-bottom: 20px;
-}
-
-.image-box{
   height: 200px;
 }
 
