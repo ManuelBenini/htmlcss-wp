@@ -46,7 +46,7 @@ h4{
 
 .overlay{
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .mb-30{
@@ -134,11 +134,11 @@ div.text-jumbotron h3{
   float: left;
 }
 
-main section.main-images, main section.main-text{
+.image-box{
   margin-bottom: 20px;
 }
 
-main section.main-images :nth-child(1n){
+.image-box{
   height: 200px;
 }
 
@@ -150,16 +150,20 @@ main div.clearfix section{
   width: 60%;
 }
 
-main div.clearfix section.center-col-img{
+main div.clearfix .center-col .image-box{
   background-image: url('../img/banner-2.jpg');
 }
 
-main div.clearfix aside.left-col-img{
+main div.clearfix aside.left-col .image-box{
   background-image: url('../img/img-1.jpg');
 }
 
-main div.clearfix aside.right-col-img{
+main div.clearfix aside.right-col .image-box{
   background-image: url('../img/img-3.jpg');
+}
+
+.clearfix{
+  margin-bottom: 20px;
 }
 
 /* FOOTER */
